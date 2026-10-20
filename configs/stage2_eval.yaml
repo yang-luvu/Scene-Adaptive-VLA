@@ -1,0 +1,25 @@
+eval:
+  agent: simlingo
+  checkpoint: models/stage2Model/simlingo_SA_stage2/inference_model/model.pth
+  benchmark: bench2drive
+  route_selection:
+    total: 1 
+    index: 0 
+  seeds: [5]
+  tries: 1
+  retry_failed: true
+  retry_unsuccess: true 
+  output_path: eval_results/stage2_eval
+  team_code: team_code_adaption
+  agent_config: not_used
+  language_sample_count: 1
+  runtime_profile: smart_assigner 
+  predict_language: true
+  measurement:
+    wall_clock_latency: false # Measure model wall-clock latency.
+    power: false # Measure model GPU power through NVML.
+    power_sample_interval_ms: 10
+
+budget:
+  mode: smart_assigner
+  policy: stage2 

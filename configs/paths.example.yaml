@@ -1,0 +1,4 @@
+# Copy to configs/paths.local.yaml or generate it with tools/setup_paths.py.
+root_path: /path/to/simlingo-adaption
+carla_path: /path/to/CARLA_0.9.15
+data_path: /path/to/simlingo-dataset
