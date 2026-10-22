@@ -9,6 +9,12 @@
   Beijing University of Posts and Telecommunications
 </p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.24590">
+    <img src="https://img.shields.io/badge/arXiv-2610.24590-b31b1b.svg" alt="Paper">
+  </a>
+</p>
+
 This repository provides the official implementation of **Scene-Adaptive VLA**,
 accepted at **NeurIPS 2026**. It reduces average inference FLOPs by **53.5%** and inference
 latency by **49.0%**, with negligible degradation in driving and language
